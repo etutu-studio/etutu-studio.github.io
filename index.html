@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이투투</title>
+<meta name="description" content="이투투가 만드는 게임. 오늘도 평타: 직장인 키우기.">
+<link rel="icon" href="pyeongta-icon.png">
+<style>
+  :root { --bg: #fbf6e9; --ink: #1d1a14; --sub: #6b6455; --card: #ffffff; --line: #e8dfc8; --accent: #f5c518; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17150f; --ink: #f3eedf; --sub: #a9a18e; --card: #221f17; --line: #3a3526; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 20px; margin: 0 0 32px; letter-spacing: 0.02em; }
+  .app { display: flex; gap: 16px; align-items: center; background: var(--card);
+         border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .app img { width: 88px; height: 88px; border-radius: 20px; flex: none; }
+  .app h2 { font-size: 18px; margin: 0 0 4px; }
+  .app p { margin: 0; color: var(--sub); font-size: 14px; }
+  ul { list-style: none; padding: 0; margin: 20px 0 0; display: grid; gap: 8px; }
+  a { color: inherit; }
+  .links a { display: block; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px;
+             background: var(--card); text-decoration: none; }
+  .links a:hover { border-color: var(--accent); }
+  footer { margin-top: 40px; color: var(--sub); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>이투투</h1>
+  <section class="app">
+    <img src="pyeongta-icon.png" alt="오늘도 평타 아이콘">
+    <div>
+      <h2>오늘도 평타: 직장인 키우기</h2>
+      <p>앱을 꺼 두면 월급이 쌓인다. 수습부터 임원까지, 아니면 치킨집까지.</p>
+    </div>
+  </section>
+  <ul class="links">
+    <li><a href="https://play.google.com/store/apps/details?id=com.pyeongta.pyeongta">Google Play에서 받기</a></li>
+    <li><a href="https://sites.google.com/view/pyeongta-privacy">개인정보 처리방침</a></li>
+    <li><a href="https://sites.google.com/view/pyeongta-privacy/support">문의</a></li>
+  </ul>
+  <footer>문의 classic0379@gmail.com</footer>
+</main>
+</body>
+</html>
